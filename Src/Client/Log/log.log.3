@@ -1,0 +1,28 @@
+2022-11-19 16:24:34,676 [ 1] INFO  Unity: LoadingManager start
+2022-11-19 16:24:37,964 [ 1] INFO  Unity: DataManager > DataManager()
+2022-11-19 16:24:45,097 [ 1] INFO  Unity: UserLoginRequest::user :admin psw:123456
+2022-11-19 16:24:45,099 [ 1] INFO  Unity: ConnectToServer() Start 
+2022-11-19 16:24:45,106 [ 1] INFO  Unity: DoConnect
+2022-11-19 16:24:45,109 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2022-11-19 16:24:45,114 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2022-11-19 16:24:45,121 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2022-11-19 16:24:45,292 [ 1] INFO  Unity: OnLogin:Success [None]
+2022-11-19 16:24:45,296 [ 1] INFO  Unity: LoadLevel: CharSelect
+2022-11-19 16:24:45,659 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-11-19 16:24:45,668 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list., System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1925)
+System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1873)
+System.String.Format (System.String format, System.Object[] args) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:1868)
+UnityEngine.DebugLogHandler.LogFormat (LogType logType, UnityEngine.Object context, System.String format, System.Object[] args) (at C:/buildslave/unity/build/Runtime/Export/Logger/DebugLogHandler.cs:9)
+UnityEngine.Logger.LogFormat (LogType logType, System.String format, System.Object[] args) (at C:/buildslave/unity/build/Runtime/Export/Logger/Logger.cs:113)
+UnityEngine.Debug.LogFormat (System.String format, System.Object[] args) (at C:/buildslave/unity/build/Runtime/Export/Debug.bindings.cs:108)
+UICharacterSelect.InitCharacterSelect (Boolean init) (at Assets/Scripts/UI/UICharacterSelect.cs:53)
+UICharacterSelect.Start () (at Assets/Scripts/UI/UICharacterSelect.cs:35)
+}</args></log4net.Error>
+2022-11-19 16:27:23,724 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2022-11-19 16:27:23,725 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

@@ -1,0 +1,19 @@
+2022-11-19 16:52:04,270 [ 1] INFO  Unity: LoadingManager start
+2022-11-19 16:52:07,540 [ 1] INFO  Unity: DataManager > DataManager()
+2022-11-19 16:52:18,082 [ 1] INFO  Unity: UserLoginRequest::user :admin psw:123456
+2022-11-19 16:52:18,084 [ 1] INFO  Unity: ConnectToServer() Start 
+2022-11-19 16:52:18,091 [ 1] INFO  Unity: DoConnect
+2022-11-19 16:52:18,092 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2022-11-19 16:52:18,099 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2022-11-19 16:52:18,106 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2022-11-19 16:52:18,251 [ 1] INFO  Unity: OnLogin:Success [None]
+2022-11-19 16:52:18,255 [ 1] INFO  Unity: LoadLevel: CharSelect
+2022-11-19 16:52:18,672 [ 1] INFO  Unity: LevelLoadCompleted:1
+2022-11-19 16:52:18,678 [ 1] INFO  Unity: Characters Count: 7
+2022-11-19 16:52:21,683 [ 1] INFO  Unity: Select Char:[1]雨过天晴[Warrior]
+2022-11-19 16:52:22,498 [ 1] INFO  Unity: Select Char:[2]士郎[Warrior]
+2022-11-19 16:52:23,202 [ 1] INFO  Unity: Select Char:[3]Text[Archer]
+2022-11-19 16:52:24,132 [ 1] INFO  Unity: Select Char:[4]法[Wizard]
+2022-11-19 16:52:27,295 [ 1] INFO  Unity: Select Char:[5]陈平安[Warrior]
+2022-11-19 16:52:28,034 [ 1] INFO  Unity: Select Char:[6]箭手[Archer]
