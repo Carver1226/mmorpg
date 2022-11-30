@@ -1050,9 +1050,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: ad969b9feb18b474cbd287095d4171d9,
-      type: 3}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: ad969b9feb18b474cbd287095d4171d9, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1665,11 +1664,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1675786380}
     m_Modifications:
-    - target: {fileID: 137611024734780932, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4616454976859732, guid: e123cac6a36a3594b90bd6e758b8db3c, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1702,44 +1696,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 95639626998294340, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95639626998294340, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_UpdateMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 137822270555529536, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f183074ae106061459f94eb60bdbc1ea, type: 2}
     - target: {fileID: 1023616289239580, guid: e123cac6a36a3594b90bd6e758b8db3c, type: 2}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 137611024734780932, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f183074ae106061459f94eb60bdbc1ea, type: 2}
-    - target: {fileID: 137611024734780932, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 137611024734780932, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 137611024734780932, guid: e123cac6a36a3594b90bd6e758b8db3c,
-        type: 2}
-      propertyPath: m_LightProbeUsage
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e123cac6a36a3594b90bd6e758b8db3c, type: 2}
@@ -1792,16 +1751,6 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 137970762930042158, guid: e4d7fc11e7243a14ea0d8428b31466c8,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4556137280be7ad49a3c948db0603c42, type: 2}
-    - target: {fileID: 137024025333119272, guid: e4d7fc11e7243a14ea0d8428b31466c8,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4556137280be7ad49a3c948db0603c42, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4d7fc11e7243a14ea0d8428b31466c8, type: 2}
   m_IsPrefabAsset: 0
@@ -2524,9 +2473,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: f83e3b8eb4247c24896aaf9eab93199d,
-      type: 3}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: f83e3b8eb4247c24896aaf9eab93199d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -3722,9 +3670,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 16d80686d7746d04f9c804581a50ce47,
-      type: 3}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 16d80686d7746d04f9c804581a50ce47, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -3826,16 +3773,6 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 137382836790493244, guid: b7ff0c9c92b561446a21774fbf316dc0,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 685ae5767543a7e41be17586d3595622, type: 2}
-    - target: {fileID: 137940115588564374, guid: b7ff0c9c92b561446a21774fbf316dc0,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 685ae5767543a7e41be17586d3595622, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ff0c9c92b561446a21774fbf316dc0, type: 2}
   m_IsPrefabAsset: 0

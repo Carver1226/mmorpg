@@ -11,6 +11,7 @@ using System.Threading;
 
 using Network;
 using GameServer.Services;
+using GameServer.Managers;
 
 namespace GameServer
 {
@@ -22,10 +23,13 @@ namespace GameServer
 
         public bool Init()
         {
+            int Port = Properties.Settings.Default.ServerPort;
             network = new NetService();
-            network.Init(8000);
+            network.Init(Port);
             DBService.Instance.Init();
             UserService.Instance.Init();
+            DataManager.Instance.Load();
+            MapService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
             return true;

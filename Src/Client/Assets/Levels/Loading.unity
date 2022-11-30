@@ -506,7 +506,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 100%
+  m_Text: 0%
 --- !u!222 &90249742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2384,7 +2384,7 @@ MonoBehaviour:
   password: {fileID: 1867641847}
   passwordConfirm: {fileID: 1005020629}
   buttonRegister: {fileID: 194870279}
-  uiLogin: {fileID: 0}
+  uiLogin: {fileID: 1398766127}
 --- !u!1 &887607297
 GameObject:
   m_ObjectHideFlags: 0
