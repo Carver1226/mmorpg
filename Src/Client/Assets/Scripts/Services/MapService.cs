@@ -99,5 +99,14 @@ namespace Services
             }
             Debug.Log(sb.ToString());
         }
+        public void SendMapTeleport(int teleporterId)
+        {
+            Debug.LogFormat("MapTeleportRequest: teleporterId:{0}", teleporterId);
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.mapTeleport = new MapTeleportRequest();
+            message.Request.mapTeleport.teleporterId = teleporterId;
+            NetClient.Instance.SendMessage(message);
+        }
     }
 }

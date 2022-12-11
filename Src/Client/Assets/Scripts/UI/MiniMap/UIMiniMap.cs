@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIMiniMap : MonoBehaviour {
+public class UIMiniMap : MonoSingleton<UIMiniMap> {
 
 	public Collider miniMapBoundingBox;
 	public Image miniMap;
@@ -14,9 +14,10 @@ public class UIMiniMap : MonoBehaviour {
 
 	private Transform playerTransform;
 
-	// Use this for initialization
-	void Start () {
-		this.InitMap();
+    // Use this for initialization
+    protected override void OnStart () {
+		MiniMapManager.Instance.miniMap = this;
+		this.UpdateMap();
 	}
 	
 	// Update is called once per frame
@@ -42,14 +43,14 @@ public class UIMiniMap : MonoBehaviour {
 		this.arrow.transform.eulerAngles = new Vector3(0, 0, -playerTransform.eulerAngles.y);
 	}
 
-	void InitMap()
+	public void UpdateMap()
     {
 		this.mapName.text = User.Instance.CurrentMapData.Name;
-		if (this.miniMap.overrideSprite == null)
-			this.miniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
+		this.miniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
 
 		this.miniMap.SetNativeSize();
 		this.miniMap.transform.localPosition = Vector3.zero;
-		//this.playerTransform = User.Instance.CurrentCharacterObject.transform;
+		this.miniMapBoundingBox = MiniMapManager.Instance.MiniMapBoundingBox;
+		this.playerTransform = null;
     }
 }

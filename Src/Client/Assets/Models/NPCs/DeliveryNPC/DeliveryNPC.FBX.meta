@@ -97,7 +97,12 @@ ModelImporter:
     4300000: DeliveryNPC
     9500000: //RootNode
     13700000: DeliveryNPC
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #25'
+    second: {fileID: 2100000, guid: 8dd7eaa1eb25c26458b560cb77c517a1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
