@@ -1,205 +1,993 @@
-2022-12-11 10:30:00,610 [ 1] INFO  Unity: LoadingManager start
-2022-12-11 10:30:03,877 [ 1] INFO  Unity: DataManager > DataManager()
-2022-12-11 10:30:13,287 [ 1] INFO  Unity: UserLoginRequest::user :122 psw:123456
-2022-12-11 10:30:13,291 [ 1] INFO  Unity: ConnectToServer() Start 
-2022-12-11 10:30:13,299 [ 1] INFO  Unity: DoConnect
-2022-12-11 10:30:13,302 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2022-12-11 10:30:13,309 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2023-01-29 17:35:58,736 [ 1] INFO  Unity: LoadingManager start
+2023-01-29 17:36:02,103 [ 1] INFO  Unity: DataManager > DataManager()
+2023-01-29 17:36:35,493 [ 1] INFO  Unity: UserRegisterRequest::user :1048426439@qq.com psw:123456
+2023-01-29 17:36:35,499 [ 1] INFO  Unity: ConnectToServer() Start 
+2023-01-29 17:36:35,519 [ 1] INFO  Unity: DoConnect
+2023-01-29 17:36:35,523 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2023-01-29 17:36:35,534 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2022-12-11 10:30:13,317 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2022-12-11 10:30:13,494 [ 1] INFO  Unity: OnLogin:Failed [用户名不存在]
-2022-12-11 10:30:25,063 [ 1] INFO  Unity: UserLoginRequest::user :admin psw:123456
-2022-12-11 10:30:25,117 [ 1] INFO  Unity: OnLogin:Success [None]
-2022-12-11 10:30:25,119 [ 1] INFO  Unity: LoadLevel: CharSelect
-2022-12-11 10:30:25,362 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-12-11 10:30:25,369 [ 1] INFO  Unity: Characters Count: 1
-2022-12-11 10:30:26,350 [ 1] INFO  Unity: Select Char:[1]carver[Warrior]
-2022-12-11 10:30:43,579 [ 1] INFO  Unity: UserCreateCharacterRequest::name:法王 class:Wizard
-2022-12-11 10:30:43,663 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
-2022-12-11 10:30:43,665 [ 1] INFO  Unity: Characters Count: 2
-2022-12-11 10:30:44,579 [ 1] INFO  Unity: Select Char:[0]法王[Wizard]
-2022-12-11 10:30:45,225 [ 1] INFO  Unity: Select Char:[0]carver[Warrior]
-2022-12-11 10:30:46,004 [ 1] INFO  Unity: Select Char:[0]法王[Wizard]
-2022-12-11 10:30:46,319 [ 1] INFO  Unity: Select Char:[0]carver[Warrior]
-2022-12-11 10:30:47,014 [ 1] INFO  Unity: UserGameEnterRequest::characterId: 0
-2022-12-11 10:30:47,057 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2022-12-11 10:30:47,060 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
-2022-12-11 10:30:47,061 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
-2022-12-11 10:30:47,062 [ 1] INFO  Unity: ItemManager:Init[Id:1001,Count:1]
-2022-12-11 10:30:47,063 [ 1] INFO  Unity: ItemManager:Init[Id:1002,Count:1]
-2022-12-11 10:30:47,064 [ 1] INFO  Unity: ItemManager:Init[Id:1003,Count:1]
-2022-12-11 10:30:47,064 [ 1] INFO  Unity: ItemManager:Init[Id:1004,Count:1]
-2022-12-11 10:30:47,065 [ 1] INFO  Unity: ItemManager:Init[Id:1005,Count:1]
-2022-12-11 10:30:47,066 [ 1] INFO  Unity: ItemManager:Init[Id:1006,Count:1]
-2022-12-11 10:30:47,067 [ 1] INFO  Unity: ItemManager:Init[Id:1007,Count:1]
-2022-12-11 10:30:47,067 [ 1] INFO  Unity: ItemManager:Init[Id:3001,Count:1]
-2022-12-11 10:30:47,077 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2022-12-11 10:30:47,079 [ 1] INFO  Unity: AddCharacter:7:carver Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2022-12-11 10:30:47,084 [ 1] INFO  Unity: LoadLevel: MainCity
-2022-12-11 10:30:48,159 [ 1] WARN  Unity: DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+2023-01-29 17:36:35,547 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2023-01-29 17:36:42,820 [ 1] INFO  Unity: OnUserRegister:Success [None]
+2023-01-29 17:37:27,606 [ 1] INFO  Unity: UserLoginRequest::user :1048426439@qq.com psw:123456
+2023-01-29 17:37:27,781 [ 1] INFO  Unity: OnLogin:Success [None]
+2023-01-29 17:37:27,787 [ 1] INFO  Unity: LoadLevel: CharSelect
+2023-01-29 17:37:28,318 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-01-29 17:37:28,332 [ 1] INFO  Unity: Characters Count: 0
+2023-01-29 17:38:07,219 [ 1] INFO  Unity: UserCreateCharacterRequest::name:石岚 class:Warrior
+2023-01-29 17:38:07,682 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
+2023-01-29 17:38:07,686 [ 1] INFO  Unity: Characters Count: 1
+2023-01-29 17:38:08,909 [ 1] INFO  Unity: Select Char:[3]石岚[Warrior]
+2023-01-29 17:38:10,933 [ 1] INFO  Unity: UserGameEnterRequest::characterId: 0
+2023-01-29 17:38:11,017 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2023-01-29 17:38:11,022 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2023-01-29 17:38:11,024 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2023-01-29 17:38:11,071 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-01-29 17:38:11,077 [ 1] INFO  Unity: AddCharacter:3:石岚 Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-01-29 17:38:11,085 [ 1] INFO  Unity: LoadLevel: MainCity
+2023-01-29 17:38:12,822 [ 1] WARN  Unity: DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
 UnityEngine.Object:DontDestroyOnLoad(Object)
 MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:30)
 
-2022-12-11 10:30:48,220 [ 1] INFO  Unity: LevelLoadCompleted:1
-2022-12-11 10:30:49,626 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2022-12-11 10:30:49,628 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:49,725 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
-2022-12-11 10:30:49,726 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:49,795 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
-2022-12-11 10:30:49,796 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:49,880 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
-2022-12-11 10:30:49,881 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:49,987 [ 1] INFO  Unity: SetDirection:(59, -81, 0)
-2022-12-11 10:30:49,988 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,077 [ 1] INFO  Unity: SetDirection:(44, -90, 0)
-2022-12-11 10:30:50,078 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,160 [ 1] INFO  Unity: SetDirection:(28, -96, 0)
-2022-12-11 10:30:50,161 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,237 [ 1] INFO  Unity: SetDirection:(10, -99, 0)
-2022-12-11 10:30:50,239 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,337 [ 1] INFO  Unity: SetDirection:(-10, -99, 0)
-2022-12-11 10:30:50,338 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,427 [ 1] INFO  Unity: SetDirection:(-28, -96, 0)
-2022-12-11 10:30:50,428 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,516 [ 1] INFO  Unity: SetDirection:(-47, -88, 0)
-2022-12-11 10:30:50,517 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,625 [ 1] INFO  Unity: SetDirection:(-64, -77, 0)
-2022-12-11 10:30:50,626 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,709 [ 1] INFO  Unity: SetDirection:(-77, -64, 0)
-2022-12-11 10:30:50,710 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,798 [ 1] INFO  Unity: SetDirection:(-88, -47, 0)
-2022-12-11 10:30:50,799 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:50,841 [ 1] INFO  Unity: MoveForward
-2022-12-11 10:30:50,843 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:50,891 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
-2022-12-11 10:30:50,892 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:50,974 [ 1] INFO  Unity: SetDirection:(-99, -14, 0)
-2022-12-11 10:30:50,975 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,047 [ 1] INFO  Unity: SetDirection:(-100, 4, 0)
-2022-12-11 10:30:51,049 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,148 [ 1] INFO  Unity: SetDirection:(-97, 24, 0)
-2022-12-11 10:30:51,149 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,238 [ 1] INFO  Unity: SetDirection:(-91, 41, 0)
-2022-12-11 10:30:51,239 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,339 [ 1] INFO  Unity: SetDirection:(-81, 59, 0)
-2022-12-11 10:30:51,341 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,449 [ 1] INFO  Unity: SetDirection:(-67, 74, 0)
-2022-12-11 10:30:51,450 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,517 [ 1] INFO  Unity: SetDirection:(-53, 85, 0)
-2022-12-11 10:30:51,519 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,625 [ 1] INFO  Unity: SetDirection:(-36, 93, 0)
-2022-12-11 10:30:51,626 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:51,790 [ 1] INFO  Unity: SetDirection:(-19, 98, 0)
-2022-12-11 10:30:51,791 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:52,199 [ 1] INFO  Unity: SetDirection:(-36, 93, 0)
-2022-12-11 10:30:52,201 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:52,798 [ 1] INFO  Unity: SetPosition:(4706, 4367, 805)
-2022-12-11 10:30:52,799 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:52,863 [ 1] INFO  Unity: SetDirection:(-52, 85, 0)
-2022-12-11 10:30:52,866 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:52,990 [ 1] INFO  Unity: SetPosition:(4706, 4380, 805)
-2022-12-11 10:30:52,991 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:53,199 [ 1] INFO  Unity: SetPosition:(4706, 4388, 805)
-2022-12-11 10:30:53,200 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:53,402 [ 1] INFO  Unity: SetPosition:(4706, 4397, 805)
-2022-12-11 10:30:53,404 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:53,484 [ 1] INFO  Unity: SetDirection:(-34, 94, 0)
-2022-12-11 10:30:53,485 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:53,610 [ 1] INFO  Unity: SetPosition:(4706, 4416, 805)
-2022-12-11 10:30:53,610 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:53,845 [ 1] INFO  Unity: SetPosition:(4706, 4443, 805)
-2022-12-11 10:30:53,846 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:54,082 [ 1] INFO  Unity: SetPosition:(4706, 4471, 805)
-2022-12-11 10:30:54,083 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:54,306 [ 1] INFO  Unity: SetPosition:(4706, 4498, 805)
-2022-12-11 10:30:54,307 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:54,843 [ 1] INFO  Unity: SetDirection:(-51, 86, 0)
-2022-12-11 10:30:54,844 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:54,943 [ 1] INFO  Unity: SetDirection:(-67, 74, 0)
-2022-12-11 10:30:54,944 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:55,046 [ 1] INFO  Unity: SetDirection:(-81, 59, 0)
-2022-12-11 10:30:55,047 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:55,180 [ 1] INFO  Unity: SetDirection:(-90, 43, 0)
-2022-12-11 10:30:55,182 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:55,661 [ 1] INFO  Unity: SetDirection:(-81, 58, 0)
-2022-12-11 10:30:55,662 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:55,843 [ 1] INFO  Unity: SetDirection:(-69, 73, 0)
-2022-12-11 10:30:55,844 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:55,943 [ 1] INFO  Unity: SetDirection:(-54, 84, 0)
-2022-12-11 10:30:55,944 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:56,025 [ 1] INFO  Unity: SetDirection:(-38, 92, 0)
-2022-12-11 10:30:56,027 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:56,108 [ 1] INFO  Unity: SetDirection:(-21, 98, 0)
-2022-12-11 10:30:56,109 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:56,212 [ 1] INFO  Unity: SetDirection:(-1, 100, 0)
-2022-12-11 10:30:56,212 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:56,328 [ 1] INFO  Unity: SetDirection:(17, 99, 0)
-2022-12-11 10:30:56,329 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:57,390 [ 1] INFO  Unity: SetDirection:(34, 94, 0)
-2022-12-11 10:30:57,391 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:30:58,520 [ 1] INFO  Unity: Stop
-2022-12-11 10:30:58,521 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:30:59,905 [ 1] INFO  Unity: SetDirection:(51, 86, 0)
-2022-12-11 10:30:59,905 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:00,027 [ 1] INFO  Unity: SetDirection:(66, 75, 0)
-2022-12-11 10:31:00,029 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:00,142 [ 1] INFO  Unity: MoveForward
-2022-12-11 10:31:00,144 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:31:00,691 [ 1] INFO  Unity: SetPosition:(4645, 5693, 805)
-2022-12-11 10:31:00,692 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:31:00,894 [ 1] INFO  Unity: Stop
-2022-12-11 10:31:00,895 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:07,305 [ 1] INFO  Unity: MoveBack
-2022-12-11 10:31:07,306 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-12-11 10:31:07,710 [ 1] INFO  Unity: SetDirection:(51, 86, 0)
-2022-12-11 10:31:07,711 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-12-11 10:31:07,799 [ 1] INFO  Unity: SetDirection:(34, 94, 0)
-2022-12-11 10:31:07,801 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-12-11 10:31:07,882 [ 1] INFO  Unity: SetDirection:(17, 99, 0)
-2022-12-11 10:31:07,883 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-12-11 10:31:07,965 [ 1] INFO  Unity: SetDirection:(0, 100, 0)
-2022-12-11 10:31:07,967 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
-2022-12-11 10:31:07,999 [ 1] INFO  Unity: Stop
-2022-12-11 10:31:08,000 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,052 [ 1] INFO  Unity: SetDirection:(-18, 98, 0)
-2022-12-11 10:31:08,054 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,151 [ 1] INFO  Unity: SetDirection:(-38, 93, 0)
-2022-12-11 10:31:08,152 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,238 [ 1] INFO  Unity: SetDirection:(-53, 85, 0)
-2022-12-11 10:31:08,239 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,321 [ 1] INFO  Unity: SetDirection:(-67, 74, 0)
-2022-12-11 10:31:08,322 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,403 [ 1] INFO  Unity: SetDirection:(-79, 61, 0)
-2022-12-11 10:31:08,404 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,504 [ 1] INFO  Unity: SetDirection:(-90, 43, 0)
-2022-12-11 10:31:08,505 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,610 [ 1] INFO  Unity: SetDirection:(-97, 25, 0)
-2022-12-11 10:31:08,611 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:08,759 [ 1] INFO  Unity: SetDirection:(-100, 7, 0)
-2022-12-11 10:31:08,762 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:09,248 [ 1] INFO  Unity: MoveForward
-2022-12-11 10:31:09,250 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:31:11,036 [ 1] INFO  Unity: SetPosition:(4037, 5611, 805)
-2022-12-11 10:31:11,037 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
-2022-12-11 10:31:12,739 [ 1] INFO  Unity: Stop
-2022-12-11 10:31:12,740 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:7 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
-2022-12-11 10:31:16,271 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:19,320 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:21,493 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:22,987 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:24,946 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:26,496 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:28,044 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:29,810 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:31,730 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:33,139 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:34,371 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:36,594 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:39,302 [ 1] INFO  Unity: SendEquipItem
-2022-12-11 10:31:48,528 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2022-12-11 10:31:48,529 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2023-01-29 17:38:12,952 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-01-29 17:38:14,494 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2023-01-29 17:38:14,500 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:14,603 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2023-01-29 17:38:14,606 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:14,700 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
+2023-01-29 17:38:14,702 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:14,949 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:38:14,954 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:15,716 [ 1] INFO  Unity: Stop
+2023-01-29 17:38:15,718 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:15,734 [ 1] INFO  Unity: SetDirection:(75, -66, 0)
+2023-01-29 17:38:15,736 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:15,913 [ 1] INFO  Unity: SetDirection:(62, -79, 0)
+2023-01-29 17:38:15,917 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:16,007 [ 1] INFO  Unity: SetDirection:(46, -89, 0)
+2023-01-29 17:38:16,010 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:16,112 [ 1] INFO  Unity: SetDirection:(27, -96, 0)
+2023-01-29 17:38:16,116 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:16,200 [ 1] INFO  Unity: SetDirection:(10, -100, 0)
+2023-01-29 17:38:16,202 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:16,289 [ 1] INFO  Unity: SetDirection:(-8, -100, 0)
+2023-01-29 17:38:16,291 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:16,377 [ 1] INFO  Unity: SetDirection:(-28, -96, 0)
+2023-01-29 17:38:16,379 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:16,494 [ 1] INFO  Unity: SetDirection:(-46, -89, 0)
+2023-01-29 17:38:16,498 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:16,870 [ 1] INFO  Unity: MoveBack
+2023-01-29 17:38:16,877 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-01-29 17:38:17,169 [ 1] INFO  Unity: Stop
+2023-01-29 17:38:17,171 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:17,394 [ 1] INFO  Unity: SetDirection:(-61, -79, 0)
+2023-01-29 17:38:17,397 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:17,539 [ 1] INFO  Unity: SetDirection:(-75, -66, 0)
+2023-01-29 17:38:17,542 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:17,627 [ 1] INFO  Unity: SetDirection:(-87, -50, 0)
+2023-01-29 17:38:17,631 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:17,736 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
+2023-01-29 17:38:17,739 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:17,832 [ 1] INFO  Unity: SetDirection:(-99, -14, 0)
+2023-01-29 17:38:17,834 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:17,905 [ 1] INFO  Unity: SetDirection:(-100, 3, 0)
+2023-01-29 17:38:17,907 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:17,977 [ 1] INFO  Unity: SetDirection:(-98, 21, 0)
+2023-01-29 17:38:17,979 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:18,088 [ 1] INFO  Unity: SetDirection:(-93, 38, 0)
+2023-01-29 17:38:18,090 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:18,368 [ 1] INFO  Unity: MoveBack
+2023-01-29 17:38:18,370 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-01-29 17:38:18,757 [ 1] INFO  Unity: Stop
+2023-01-29 17:38:18,758 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:19,220 [ 1] INFO  Unity: SetDirection:(-84, 54, 0)
+2023-01-29 17:38:19,222 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:19,411 [ 1] INFO  Unity: SetDirection:(-73, 69, 0)
+2023-01-29 17:38:19,413 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:21,008 [ 1] INFO  Unity: SetDirection:(-84, 53, 0)
+2023-01-29 17:38:21,010 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:21,286 [ 1] INFO  Unity: SetDirection:(-93, 38, 0)
+2023-01-29 17:38:21,289 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:22,698 [ 1] INFO  Unity: MoveBack
+2023-01-29 17:38:22,700 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-01-29 17:38:23,050 [ 1] INFO  Unity: Stop
+2023-01-29 17:38:23,052 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:44,183 [ 1] INFO  Unity: SetDirection:(-83, 55, 0)
+2023-01-29 17:38:44,185 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:44,282 [ 1] INFO  Unity: SetDirection:(-70, 71, 0)
+2023-01-29 17:38:44,284 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:44,364 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:38:44,366 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:44,394 [ 1] INFO  Unity: SetDirection:(-54, 84, 0)
+2023-01-29 17:38:44,397 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:44,485 [ 1] INFO  Unity: SetDirection:(-35, 94, 0)
+2023-01-29 17:38:44,488 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:44,586 [ 1] INFO  Unity: SetDirection:(-17, 98, 0)
+2023-01-29 17:38:44,588 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:44,757 [ 1] INFO  Unity: SetDirection:(1, 100, 0)
+2023-01-29 17:38:44,760 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:45,825 [ 1] INFO  Unity: SetDirection:(-17, 99, 0)
+2023-01-29 17:38:45,828 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:46,096 [ 1] INFO  Unity: SetDirection:(-34, 94, 0)
+2023-01-29 17:38:46,098 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:47,951 [ 1] INFO  Unity: SetDirection:(-52, 86, 0)
+2023-01-29 17:38:47,953 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:48,117 [ 1] INFO  Unity: SetDirection:(-66, 75, 0)
+2023-01-29 17:38:48,120 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:48,681 [ 1] INFO  Unity: SetDirection:(-79, 61, 0)
+2023-01-29 17:38:48,683 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:48,817 [ 1] INFO  Unity: SetDirection:(-89, 46, 0)
+2023-01-29 17:38:48,820 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:49,691 [ 1] INFO  Unity: SetDirection:(-96, 29, 0)
+2023-01-29 17:38:49,694 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:51,014 [ 1] INFO  Unity: SetPosition:(4394, 5344, 805)
+2023-01-29 17:38:51,017 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:52,724 [ 1] INFO  Unity: SetPosition:(3904, 5492, 805)
+2023-01-29 17:38:52,730 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:54,049 [ 1] INFO  Unity: SetDirection:(-89, 46, 0)
+2023-01-29 17:38:54,053 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:54,179 [ 1] INFO  Unity: SetDirection:(-77, 63, 0)
+2023-01-29 17:38:54,182 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:54,272 [ 1] INFO  Unity: SetDirection:(-63, 78, 0)
+2023-01-29 17:38:54,276 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:54,424 [ 1] INFO  Unity: SetDirection:(-47, 88, 0)
+2023-01-29 17:38:54,427 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:38:54,544 [ 1] INFO  Unity: Stop
+2023-01-29 17:38:54,546 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:38:57,872 [ 1] INFO  Unity: SendBuyItem
+2023-01-29 17:38:58,112 [ 1] INFO  Unity: StatusNotify:[Item][Add]1001:1
+2023-01-29 17:38:58,119 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:300
+2023-01-29 17:39:11,225 [ 1] INFO  Unity: SendEquipItem
+2023-01-29 17:39:13,787 [ 1] INFO  Unity: SetDirection:(-30, 95, 0)
+2023-01-29 17:39:13,789 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:13,940 [ 1] INFO  Unity: SetDirection:(-10, 99, 0)
+2023-01-29 17:39:13,943 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,033 [ 1] INFO  Unity: SetDirection:(10, 99, 0)
+2023-01-29 17:39:14,034 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,121 [ 1] INFO  Unity: SetDirection:(28, 96, 0)
+2023-01-29 17:39:14,126 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,220 [ 1] INFO  Unity: SetDirection:(47, 88, 0)
+2023-01-29 17:39:14,224 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,313 [ 1] INFO  Unity: SetDirection:(64, 77, 0)
+2023-01-29 17:39:14,315 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,418 [ 1] INFO  Unity: SetDirection:(77, 64, 0)
+2023-01-29 17:39:14,420 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,518 [ 1] INFO  Unity: SetDirection:(88, 47, 0)
+2023-01-29 17:39:14,520 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,629 [ 1] INFO  Unity: SetDirection:(95, 30, 0)
+2023-01-29 17:39:14,631 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:14,700 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:39:14,702 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:15,345 [ 1] INFO  Unity: SetDirection:(99, 13, 0)
+2023-01-29 17:39:15,347 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:16,114 [ 1] INFO  Unity: SetDirection:(100, -5, 0)
+2023-01-29 17:39:16,116 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:16,326 [ 1] INFO  Unity: SetDirection:(97, -22, 0)
+2023-01-29 17:39:16,329 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:18,504 [ 1] INFO  Unity: SetDirection:(100, -4, 0)
+2023-01-29 17:39:18,506 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:18,600 [ 1] INFO  Unity: SetDirection:(99, 15, 0)
+2023-01-29 17:39:18,603 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:18,713 [ 1] INFO  Unity: SetDirection:(94, 35, 0)
+2023-01-29 17:39:18,715 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:18,828 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2023-01-29 17:39:18,831 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:18,916 [ 1] INFO  Unity: SetDirection:(73, 68, 0)
+2023-01-29 17:39:18,920 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:19,422 [ 1] INFO  Unity: Stop
+2023-01-29 17:39:19,427 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:27,801 [ 1] INFO  Unity: SendBuyItem
+2023-01-29 17:39:27,961 [ 1] INFO  Unity: StatusNotify:[Item][Add]3:10
+2023-01-29 17:39:27,964 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:200
+2023-01-29 17:39:36,124 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2023-01-29 17:39:36,126 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,233 [ 1] INFO  Unity: SetDirection:(94, 34, 0)
+2023-01-29 17:39:36,236 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,325 [ 1] INFO  Unity: SetDirection:(99, 14, 0)
+2023-01-29 17:39:36,328 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,404 [ 1] INFO  Unity: SetDirection:(100, -4, 0)
+2023-01-29 17:39:36,407 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,527 [ 1] INFO  Unity: SetDirection:(97, -24, 0)
+2023-01-29 17:39:36,530 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,597 [ 1] INFO  Unity: SetDirection:(91, -41, 0)
+2023-01-29 17:39:36,599 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,697 [ 1] INFO  Unity: SetDirection:(81, -59, 0)
+2023-01-29 17:39:36,699 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,853 [ 1] INFO  Unity: SetDirection:(67, -74, 0)
+2023-01-29 17:39:36,855 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:36,963 [ 1] INFO  Unity: SetDirection:(52, -85, 0)
+2023-01-29 17:39:36,965 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:37,027 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:39:37,029 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:37,770 [ 1] INFO  Unity: SetPosition:(4885, 5579, 805)
+2023-01-29 17:39:37,772 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:37,913 [ 1] INFO  Unity: SetDirection:(37, -93, 0)
+2023-01-29 17:39:37,914 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:38,022 [ 1] INFO  Unity: SetDirection:(18, -98, 0)
+2023-01-29 17:39:38,028 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:38,111 [ 1] INFO  Unity: SetDirection:(0, -100, 0)
+2023-01-29 17:39:38,120 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:38,791 [ 1] INFO  Unity: SetDirection:(-18, -98, 0)
+2023-01-29 17:39:38,794 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:38,962 [ 1] INFO  Unity: SetDirection:(-35, -94, 0)
+2023-01-29 17:39:38,976 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:39,058 [ 1] INFO  Unity: SetDirection:(-52, -85, 0)
+2023-01-29 17:39:39,060 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:39,141 [ 1] INFO  Unity: SetDirection:(-66, -75, 0)
+2023-01-29 17:39:39,144 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:39,268 [ 1] INFO  Unity: SetDirection:(-79, -61, 0)
+2023-01-29 17:39:39,271 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:41,453 [ 1] INFO  Unity: Stop
+2023-01-29 17:39:41,455 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:49,508 [ 1] INFO  Unity: SendQuestAccept
+2023-01-29 17:39:49,755 [ 1] INFO  Unity: OnQuestAccept:Success, ERR:
+2023-01-29 17:39:52,081 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
+2023-01-29 17:39:52,084 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:52,196 [ 1] INFO  Unity: SetDirection:(-48, -88, 0)
+2023-01-29 17:39:52,201 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:52,280 [ 1] INFO  Unity: SetDirection:(-29, -96, 0)
+2023-01-29 17:39:52,282 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:52,405 [ 1] INFO  Unity: SetDirection:(-12, -99, 0)
+2023-01-29 17:39:52,407 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:52,457 [ 1] INFO  Unity: SetDirection:(6, -100, 0)
+2023-01-29 17:39:52,459 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:52,543 [ 1] INFO  Unity: SetDirection:(27, -96, 0)
+2023-01-29 17:39:52,545 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:39:52,624 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:39:52,626 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:52,655 [ 1] INFO  Unity: SetDirection:(44, -90, 0)
+2023-01-29 17:39:52,657 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:52,862 [ 1] INFO  Unity: SetDirection:(59, -81, 0)
+2023-01-29 17:39:52,864 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:53,635 [ 1] INFO  Unity: SetPosition:(4484, 4549, 805)
+2023-01-29 17:39:53,637 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:53,832 [ 1] INFO  Unity: SetPosition:(4484, 4549, 805)
+2023-01-29 17:39:53,834 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,013 [ 1] INFO  Unity: SetPosition:(4484, 4549, 805)
+2023-01-29 17:39:54,015 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,117 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
+2023-01-29 17:39:54,119 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,197 [ 1] INFO  Unity: SetPosition:(4484, 4549, 805)
+2023-01-29 17:39:54,199 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,213 [ 1] INFO  Unity: SetDirection:(84, -55, 0)
+2023-01-29 17:39:54,216 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,320 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2023-01-29 17:39:54,325 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,399 [ 1] INFO  Unity: SetPosition:(4496, 4549, 805)
+2023-01-29 17:39:54,402 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,436 [ 1] INFO  Unity: SetDirection:(99, -17, 0)
+2023-01-29 17:39:54,438 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,530 [ 1] INFO  Unity: SetDirection:(100, 1, 0)
+2023-01-29 17:39:54,534 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:54,897 [ 1] INFO  Unity: SetDirection:(99, -17, 0)
+2023-01-29 17:39:54,899 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:55,023 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
+2023-01-29 17:39:55,025 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:55,080 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
+2023-01-29 17:39:55,083 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:55,107 [ 1] INFO  Unity: SetPosition:(4660, 4549, 805)
+2023-01-29 17:39:55,110 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:55,190 [ 1] INFO  Unity: SetDirection:(73, -68, 0)
+2023-01-29 17:39:55,193 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:55,329 [ 1] INFO  Unity: SetPosition:(4676, 4545, 805)
+2023-01-29 17:39:55,331 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:55,353 [ 1] INFO  Unity: SetDirection:(60, -80, 0)
+2023-01-29 17:39:55,355 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:55,926 [ 1] INFO  Unity: SetDirection:(73, -68, 0)
+2023-01-29 17:39:55,928 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:56,289 [ 1] INFO  Unity: SetDirection:(60, -80, 0)
+2023-01-29 17:39:56,291 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:56,409 [ 1] INFO  Unity: SetDirection:(45, -89, 0)
+2023-01-29 17:39:56,412 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:57,138 [ 1] INFO  Unity: SetDirection:(28, -96, 0)
+2023-01-29 17:39:57,140 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:57,275 [ 1] INFO  Unity: SetDirection:(9, -100, 0)
+2023-01-29 17:39:57,277 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:57,357 [ 1] INFO  Unity: SetDirection:(-11, -99, 0)
+2023-01-29 17:39:57,359 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:57,516 [ 1] INFO  Unity: SetDirection:(-29, -96, 0)
+2023-01-29 17:39:57,519 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:59,127 [ 1] INFO  Unity: SetPosition:(4836, 3557, 805)
+2023-01-29 17:39:59,129 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:59,747 [ 1] INFO  Unity: SetDirection:(-46, -89, 0)
+2023-01-29 17:39:59,750 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:59,848 [ 1] INFO  Unity: SetDirection:(-63, -78, 0)
+2023-01-29 17:39:59,850 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:39:59,941 [ 1] INFO  Unity: SetDirection:(-77, -64, 0)
+2023-01-29 17:39:59,943 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:00,096 [ 1] INFO  Unity: SetDirection:(-87, -49, 0)
+2023-01-29 17:40:00,099 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:00,679 [ 1] INFO  Unity: SetDirection:(-95, -33, 0)
+2023-01-29 17:40:00,681 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:00,776 [ 1] INFO  Unity: SetDirection:(-99, -13, 0)
+2023-01-29 17:40:00,778 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:00,912 [ 1] INFO  Unity: SetDirection:(-100, 4, 0)
+2023-01-29 17:40:00,914 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:01,305 [ 1] INFO  Unity: SetDirection:(-98, 22, 0)
+2023-01-29 17:40:01,307 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:01,640 [ 1] INFO  Unity: Stop
+2023-01-29 17:40:01,643 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:04,688 [ 1] INFO  Unity: SendQuestSubmit
+2023-01-29 17:40:04,857 [ 1] INFO  Unity: StatusNotify:[Money][Add]0:300
+2023-01-29 17:40:04,859 [ 1] INFO  Unity: StatusNotify:[Item][Add]3:5
+2023-01-29 17:40:04,863 [ 1] INFO  Unity: StatusNotify:[Item][Add]4:5
+2023-01-29 17:40:04,869 [ 1] INFO  Unity: OnQuestSubmit:Success, ERR:
+2023-01-29 17:40:13,267 [ 1] INFO  Unity: SendQuestAccept
+2023-01-29 17:40:13,424 [ 1] INFO  Unity: OnQuestAccept:Success, ERR:
+2023-01-29 17:40:15,371 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:40:15,372 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:15,912 [ 1] INFO  Unity: SetPosition:(4195, 3243, 805)
+2023-01-29 17:40:15,916 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,108 [ 1] INFO  Unity: SetPosition:(4193, 3241, 805)
+2023-01-29 17:40:16,109 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,303 [ 1] INFO  Unity: SetPosition:(4191, 3240, 805)
+2023-01-29 17:40:16,305 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,400 [ 1] INFO  Unity: SetDirection:(-100, 5, 0)
+2023-01-29 17:40:16,404 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,479 [ 1] INFO  Unity: SetDirection:(-99, -13, 0)
+2023-01-29 17:40:16,481 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,486 [ 1] INFO  Unity: SetPosition:(4187, 3236, 805)
+2023-01-29 17:40:16,492 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,575 [ 1] INFO  Unity: SetDirection:(-94, -33, 0)
+2023-01-29 17:40:16,577 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,687 [ 1] INFO  Unity: SetDirection:(-86, -52, 0)
+2023-01-29 17:40:16,688 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:16,956 [ 1] INFO  Unity: SetDirection:(-93, -36, 0)
+2023-01-29 17:40:16,958 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:17,054 [ 1] INFO  Unity: SetDirection:(-98, -18, 0)
+2023-01-29 17:40:17,057 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:17,153 [ 1] INFO  Unity: SetDirection:(-100, 2, 0)
+2023-01-29 17:40:17,156 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:17,240 [ 1] INFO  Unity: SetDirection:(-98, 20, 0)
+2023-01-29 17:40:17,241 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:17,338 [ 1] INFO  Unity: SetDirection:(-92, 40, 0)
+2023-01-29 17:40:17,338 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:17,433 [ 1] INFO  Unity: SetDirection:(-82, 57, 0)
+2023-01-29 17:40:17,436 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:17,543 [ 1] INFO  Unity: SetDirection:(-71, 70, 0)
+2023-01-29 17:40:17,545 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:18,549 [ 1] INFO  Unity: SetPosition:(3695, 3409, 805)
+2023-01-29 17:40:18,552 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:19,615 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
+2023-01-29 17:40:19,617 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:19,752 [ 1] INFO  Unity: SetDirection:(-42, 91, 0)
+2023-01-29 17:40:19,754 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:20,196 [ 1] INFO  Unity: SetDirection:(-25, 97, 0)
+2023-01-29 17:40:20,199 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:20,251 [ 1] INFO  Unity: SetPosition:(3385, 3804, 805)
+2023-01-29 17:40:20,253 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:20,803 [ 1] INFO  Unity: SetDirection:(-7, 100, 0)
+2023-01-29 17:40:20,805 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:21,686 [ 1] INFO  Unity: SetDirection:(11, 99, 0)
+2023-01-29 17:40:21,688 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:22,527 [ 1] INFO  Unity: SetPosition:(3353, 4478, 805)
+2023-01-29 17:40:22,530 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:24,394 [ 1] INFO  Unity: SetPosition:(3415, 5034, 805)
+2023-01-29 17:40:24,396 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:24,624 [ 1] INFO  Unity: SetDirection:(-6, 100, 0)
+2023-01-29 17:40:24,627 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:26,145 [ 1] INFO  Unity: Stop
+2023-01-29 17:40:26,146 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:27,852 [ 1] INFO  Unity: SendQuestSubmit
+2023-01-29 17:40:27,942 [ 1] INFO  Unity: StatusNotify:[Money][Add]0:500
+2023-01-29 17:40:27,945 [ 1] INFO  Unity: StatusNotify:[Item][Add]3:10
+2023-01-29 17:40:27,949 [ 1] INFO  Unity: StatusNotify:[Item][Add]4:10
+2023-01-29 17:40:27,950 [ 1] INFO  Unity: OnQuestSubmit:Success, ERR:
+2023-01-29 17:40:32,048 [ 1] INFO  Unity: SendQuestAccept
+2023-01-29 17:40:32,128 [ 1] INFO  Unity: OnQuestAccept:Success, ERR:
+2023-01-29 17:40:40,152 [ 1] INFO  Unity: SetDirection:(14, 99, 0)
+2023-01-29 17:40:40,154 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:40,253 [ 1] INFO  Unity: SetDirection:(34, 94, 0)
+2023-01-29 17:40:40,255 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:40,338 [ 1] INFO  Unity: SetDirection:(53, 85, 0)
+2023-01-29 17:40:40,340 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:40,490 [ 1] INFO  Unity: SetDirection:(69, 72, 0)
+2023-01-29 17:40:40,492 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:40,542 [ 1] INFO  Unity: SetDirection:(83, 56, 0)
+2023-01-29 17:40:40,544 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:40,664 [ 1] INFO  Unity: SetDirection:(93, 38, 0)
+2023-01-29 17:40:40,666 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:40,759 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:40:40,761 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:40,764 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
+2023-01-29 17:40:40,766 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:40,874 [ 1] INFO  Unity: SetDirection:(100, 0, 0)
+2023-01-29 17:40:40,876 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:41,721 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2023-01-29 17:40:41,724 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:43,189 [ 1] INFO  Unity: SetDirection:(100, -1, 0)
+2023-01-29 17:40:43,194 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:43,371 [ 1] INFO  Unity: SetDirection:(99, 17, 0)
+2023-01-29 17:40:43,374 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:43,828 [ 1] INFO  Unity: SetDirection:(94, 35, 0)
+2023-01-29 17:40:43,830 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:43,931 [ 1] INFO  Unity: SetDirection:(86, 51, 0)
+2023-01-29 17:40:43,933 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:44,060 [ 1] INFO  Unity: SetDirection:(75, 67, 0)
+2023-01-29 17:40:44,070 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:44,832 [ 1] INFO  Unity: SetPosition:(4551, 5694, 805)
+2023-01-29 17:40:44,834 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:45,182 [ 1] INFO  Unity: Stop
+2023-01-29 17:40:45,184 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:49,933 [ 1] INFO  Unity: SendQuestSubmit
+2023-01-29 17:40:49,994 [ 1] INFO  Unity: StatusNotify:[Money][Add]0:700
+2023-01-29 17:40:49,996 [ 1] INFO  Unity: OnQuestSubmit:Success, ERR:
+2023-01-29 17:40:55,883 [ 1] INFO  Unity: SendQuestAccept
+2023-01-29 17:40:56,015 [ 1] INFO  Unity: OnQuestAccept:Success, ERR:
+2023-01-29 17:40:58,444 [ 1] INFO  Unity: SetDirection:(86, 51, 0)
+2023-01-29 17:40:58,446 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:58,540 [ 1] INFO  Unity: SetDirection:(95, 32, 0)
+2023-01-29 17:40:58,542 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:58,650 [ 1] INFO  Unity: SetDirection:(99, 12, 0)
+2023-01-29 17:40:58,654 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:58,727 [ 1] INFO  Unity: SetDirection:(100, -6, 0)
+2023-01-29 17:40:58,730 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:58,828 [ 1] INFO  Unity: SetDirection:(97, -26, 0)
+2023-01-29 17:40:58,829 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:58,921 [ 1] INFO  Unity: SetDirection:(91, -43, 0)
+2023-01-29 17:40:58,923 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:59,037 [ 1] INFO  Unity: SetDirection:(80, -60, 0)
+2023-01-29 17:40:59,039 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:59,097 [ 1] INFO  Unity: SetDirection:(68, -73, 0)
+2023-01-29 17:40:59,098 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:59,194 [ 1] INFO  Unity: SetDirection:(54, -84, 0)
+2023-01-29 17:40:59,195 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:40:59,254 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:40:59,256 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:59,279 [ 1] INFO  Unity: SetDirection:(36, -93, 0)
+2023-01-29 17:40:59,280 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:59,374 [ 1] INFO  Unity: SetDirection:(19, -98, 0)
+2023-01-29 17:40:59,377 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:59,463 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
+2023-01-29 17:40:59,464 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:59,551 [ 1] INFO  Unity: SetDirection:(-19, -98, 0)
+2023-01-29 17:40:59,553 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:59,638 [ 1] INFO  Unity: SetDirection:(-36, -93, 0)
+2023-01-29 17:40:59,641 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:59,744 [ 1] INFO  Unity: SetDirection:(-53, -85, 0)
+2023-01-29 17:40:59,747 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:40:59,902 [ 1] INFO  Unity: SetDirection:(-68, -74, 0)
+2023-01-29 17:40:59,904 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:00,760 [ 1] INFO  Unity: SetDirection:(-54, -84, 0)
+2023-01-29 17:41:00,764 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:00,973 [ 1] INFO  Unity: SetDirection:(-38, -92, 0)
+2023-01-29 17:41:00,976 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:02,426 [ 1] INFO  Unity: Stop
+2023-01-29 17:41:02,429 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:02,432 [ 1] INFO  Unity: SetPosition:(4233, 4928, 805)
+2023-01-29 17:41:02,433 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:05,051 [ 1] INFO  Unity: SendQuestSubmit
+2023-01-29 17:41:05,149 [ 1] INFO  Unity: StatusNotify:[Money][Add]0:900
+2023-01-29 17:41:05,152 [ 1] INFO  Unity: OnQuestSubmit:Success, ERR:
+2023-01-29 17:41:10,525 [ 1] INFO  Unity: SendQuestAccept
+2023-01-29 17:41:10,561 [ 1] INFO  Unity: OnQuestAccept:Success, ERR:
+2023-01-29 17:41:12,330 [ 1] INFO  Unity: SetDirection:(-20, -98, 0)
+2023-01-29 17:41:12,332 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:12,433 [ 1] INFO  Unity: SetDirection:(-2, -100, 0)
+2023-01-29 17:41:12,436 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:12,502 [ 1] INFO  Unity: SetDirection:(16, -99, 0)
+2023-01-29 17:41:12,505 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:12,628 [ 1] INFO  Unity: SetDirection:(36, -93, 0)
+2023-01-29 17:41:12,629 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:12,717 [ 1] INFO  Unity: SetDirection:(54, -84, 0)
+2023-01-29 17:41:12,719 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:12,794 [ 1] INFO  Unity: SetDirection:(68, -73, 0)
+2023-01-29 17:41:12,795 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:12,907 [ 1] INFO  Unity: SetDirection:(82, -57, 0)
+2023-01-29 17:41:12,909 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:12,996 [ 1] INFO  Unity: SetDirection:(92, -39, 0)
+2023-01-29 17:41:12,997 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:13,106 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2023-01-29 17:41:13,108 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:13,180 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:41:13,182 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:13,214 [ 1] INFO  Unity: SetDirection:(100, 2, 0)
+2023-01-29 17:41:13,216 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:13,293 [ 1] INFO  Unity: SetDirection:(97, 22, 0)
+2023-01-29 17:41:13,295 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:13,416 [ 1] INFO  Unity: SetDirection:(91, 41, 0)
+2023-01-29 17:41:13,418 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:13,655 [ 1] INFO  Unity: SetDirection:(82, 57, 0)
+2023-01-29 17:41:13,659 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:13,772 [ 1] INFO  Unity: SetDirection:(70, 71, 0)
+2023-01-29 17:41:13,774 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:13,911 [ 1] INFO  Unity: SetDirection:(55, 83, 0)
+2023-01-29 17:41:13,914 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:14,519 [ 1] INFO  Unity: Stop
+2023-01-29 17:41:14,522 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:15,438 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:41:15,442 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:16,219 [ 1] INFO  Unity: SetDirection:(40, 92, 0)
+2023-01-29 17:41:16,222 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:17,732 [ 1] INFO  Unity: Stop
+2023-01-29 17:41:17,734 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,082 [ 1] INFO  Unity: SetDirection:(23, 97, 0)
+2023-01-29 17:41:20,085 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,282 [ 1] INFO  Unity: SetDirection:(5, 100, 0)
+2023-01-29 17:41:20,284 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,358 [ 1] INFO  Unity: SetDirection:(-13, 99, 0)
+2023-01-29 17:41:20,360 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,452 [ 1] INFO  Unity: SetDirection:(-30, 95, 0)
+2023-01-29 17:41:20,454 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,529 [ 1] INFO  Unity: SetDirection:(-46, 89, 0)
+2023-01-29 17:41:20,530 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,612 [ 1] INFO  Unity: SetDirection:(-61, 79, 0)
+2023-01-29 17:41:20,614 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,718 [ 1] INFO  Unity: SetDirection:(-76, 65, 0)
+2023-01-29 17:41:20,719 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,799 [ 1] INFO  Unity: SetDirection:(-86, 51, 0)
+2023-01-29 17:41:20,804 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,877 [ 1] INFO  Unity: SetDirection:(-94, 35, 0)
+2023-01-29 17:41:20,879 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:20,968 [ 1] INFO  Unity: SetDirection:(-98, 18, 0)
+2023-01-29 17:41:20,969 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:21,044 [ 1] INFO  Unity: SetDirection:(-100, 1, 0)
+2023-01-29 17:41:21,046 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:21,165 [ 1] INFO  Unity: SetDirection:(-98, -19, 0)
+2023-01-29 17:41:21,168 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:21,446 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:41:21,448 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:21,923 [ 1] INFO  Unity: SetDirection:(-93, -36, 0)
+2023-01-29 17:41:21,924 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:22,055 [ 1] INFO  Unity: SetDirection:(-85, -52, 0)
+2023-01-29 17:41:22,057 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:22,154 [ 1] INFO  Unity: SetDirection:(-73, -68, 0)
+2023-01-29 17:41:22,157 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:22,258 [ 1] INFO  Unity: SetDirection:(-57, -82, 0)
+2023-01-29 17:41:22,260 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:22,373 [ 1] INFO  Unity: SetDirection:(-39, -92, 0)
+2023-01-29 17:41:22,375 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:22,484 [ 1] INFO  Unity: SetDirection:(-20, -98, 0)
+2023-01-29 17:41:22,486 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:22,594 [ 1] INFO  Unity: SetDirection:(-2, -100, 0)
+2023-01-29 17:41:22,595 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:23,227 [ 1] INFO  Unity: SetDirection:(-21, -98, 0)
+2023-01-29 17:41:23,230 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:23,361 [ 1] INFO  Unity: SetDirection:(-39, -92, 0)
+2023-01-29 17:41:23,362 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:24,961 [ 1] INFO  Unity: SetDirection:(-56, -83, 0)
+2023-01-29 17:41:24,963 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:25,269 [ 1] INFO  Unity: Stop
+2023-01-29 17:41:25,271 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:37,368 [ 1] INFO  Unity: SetDirection:(-70, -72, 0)
+2023-01-29 17:41:37,370 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:37,651 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:41:37,654 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:37,952 [ 1] INFO  Unity: Stop
+2023-01-29 17:41:37,956 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:43,045 [ 1] INFO  Unity: SendQuestAccept
+2023-01-29 17:41:43,095 [ 1] INFO  Unity: OnQuestAccept:Success, ERR:
+2023-01-29 17:41:44,707 [ 1] INFO  Unity: SetDirection:(-81, -58, 0)
+2023-01-29 17:41:44,709 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:44,842 [ 1] INFO  Unity: SetDirection:(-90, -43, 0)
+2023-01-29 17:41:44,844 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:44,960 [ 1] INFO  Unity: SetDirection:(-97, -24, 0)
+2023-01-29 17:41:44,962 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,046 [ 1] INFO  Unity: SetDirection:(-100, -3, 0)
+2023-01-29 17:41:45,050 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,152 [ 1] INFO  Unity: SetDirection:(-98, 17, 0)
+2023-01-29 17:41:45,155 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,248 [ 1] INFO  Unity: SetDirection:(-94, 34, 0)
+2023-01-29 17:41:45,249 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,319 [ 1] INFO  Unity: SetDirection:(-87, 50, 0)
+2023-01-29 17:41:45,322 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,393 [ 1] INFO  Unity: SetDirection:(-77, 64, 0)
+2023-01-29 17:41:45,395 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,476 [ 1] INFO  Unity: SetDirection:(-64, 77, 0)
+2023-01-29 17:41:45,479 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,591 [ 1] INFO  Unity: SetDirection:(-47, 88, 0)
+2023-01-29 17:41:45,595 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,661 [ 1] INFO  Unity: SetDirection:(-31, 95, 0)
+2023-01-29 17:41:45,664 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,763 [ 1] INFO  Unity: SetDirection:(-14, 99, 0)
+2023-01-29 17:41:45,765 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,829 [ 1] INFO  Unity: SetDirection:(3, 100, 0)
+2023-01-29 17:41:45,831 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:45,926 [ 1] INFO  Unity: SetDirection:(21, 98, 0)
+2023-01-29 17:41:45,928 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:46,111 [ 1] INFO  Unity: SetDirection:(38, 93, 0)
+2023-01-29 17:41:46,113 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:46,589 [ 1] INFO  Unity: SetDirection:(54, 84, 0)
+2023-01-29 17:41:46,591 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:46,680 [ 1] INFO  Unity: SetDirection:(69, 73, 0)
+2023-01-29 17:41:46,682 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:46,767 [ 1] INFO  Unity: SetDirection:(80, 60, 0)
+2023-01-29 17:41:46,769 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:46,883 [ 1] INFO  Unity: SetDirection:(89, 45, 0)
+2023-01-29 17:41:46,884 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:46,936 [ 1] INFO  Unity: SetDirection:(96, 29, 0)
+2023-01-29 17:41:46,938 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:47,015 [ 1] INFO  Unity: SetDirection:(99, 11, 0)
+2023-01-29 17:41:47,017 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:47,124 [ 1] INFO  Unity: SetDirection:(100, -9, 0)
+2023-01-29 17:41:47,126 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:47,211 [ 1] INFO  Unity: SetDirection:(96, -27, 0)
+2023-01-29 17:41:47,213 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:47,303 [ 1] INFO  Unity: SetDirection:(90, -44, 0)
+2023-01-29 17:41:47,305 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:41:47,334 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:41:47,336 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:47,474 [ 1] INFO  Unity: SetDirection:(80, -59, 0)
+2023-01-29 17:41:47,477 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:48,324 [ 1] INFO  Unity: SetDirection:(90, -44, 0)
+2023-01-29 17:41:48,326 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:48,965 [ 1] INFO  Unity: SetDirection:(81, -59, 0)
+2023-01-29 17:41:48,966 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:48,970 [ 1] INFO  Unity: SetPosition:(4659, 4549, 805)
+2023-01-29 17:41:48,973 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,049 [ 1] INFO  Unity: SetDirection:(69, -72, 0)
+2023-01-29 17:41:49,051 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,150 [ 1] INFO  Unity: SetDirection:(54, -84, 0)
+2023-01-29 17:41:49,152 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,156 [ 1] INFO  Unity: SetPosition:(4663, 4549, 805)
+2023-01-29 17:41:49,158 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,348 [ 1] INFO  Unity: SetDirection:(38, -92, 0)
+2023-01-29 17:41:49,350 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,353 [ 1] INFO  Unity: SetPosition:(4663, 4549, 805)
+2023-01-29 17:41:49,355 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,521 [ 1] INFO  Unity: SetPosition:(4663, 4549, 805)
+2023-01-29 17:41:49,524 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,699 [ 1] INFO  Unity: SetPosition:(4663, 4549, 805)
+2023-01-29 17:41:49,701 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,854 [ 1] INFO  Unity: SetDirection:(54, -84, 0)
+2023-01-29 17:41:49,857 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,861 [ 1] INFO  Unity: SetPosition:(4663, 4549, 805)
+2023-01-29 17:41:49,863 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:49,959 [ 1] INFO  Unity: SetDirection:(68, -73, 0)
+2023-01-29 17:41:49,961 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:50,052 [ 1] INFO  Unity: SetPosition:(4663, 4549, 805)
+2023-01-29 17:41:50,054 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:50,072 [ 1] INFO  Unity: SetDirection:(82, -57, 0)
+2023-01-29 17:41:50,075 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:50,196 [ 1] INFO  Unity: SetDirection:(92, -40, 0)
+2023-01-29 17:41:50,197 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,131 [ 1] INFO  Unity: SetDirection:(83, -56, 0)
+2023-01-29 17:41:51,133 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,235 [ 1] INFO  Unity: SetDirection:(70, -72, 0)
+2023-01-29 17:41:51,238 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,276 [ 1] INFO  Unity: SetPosition:(4971, 4405, 805)
+2023-01-29 17:41:51,279 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,328 [ 1] INFO  Unity: SetDirection:(53, -85, 0)
+2023-01-29 17:41:51,331 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,439 [ 1] INFO  Unity: SetDirection:(35, -94, 0)
+2023-01-29 17:41:51,440 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,536 [ 1] INFO  Unity: SetDirection:(15, -99, 0)
+2023-01-29 17:41:51,538 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,660 [ 1] INFO  Unity: SetDirection:(-3, -100, 0)
+2023-01-29 17:41:51,662 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:41:51,784 [ 1] INFO  Unity: Stop
+2023-01-29 17:41:51,786 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:09,155 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2023-01-29 17:42:09,159 [ 1] INFO  Unity: AddCharacter:4:法王 Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2023-01-29 17:42:12,464 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(98, 19, 0) SPD:0
+2023-01-29 17:42:12,469 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5000,4000,820),dir:(98,19,0),spd:0
+
+2023-01-29 17:42:12,529 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(93, 36, 0) SPD:0
+2023-01-29 17:42:12,533 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5000,4000,820),dir:(93,36,0),spd:0
+
+2023-01-29 17:42:12,643 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(86, 52, 0) SPD:0
+2023-01-29 17:42:12,645 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5000,4000,820),dir:(86,52,0),spd:0
+
+2023-01-29 17:42:12,713 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(75, 66, 0) SPD:0
+2023-01-29 17:42:12,715 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5000,4000,820),dir:(75,66,0),spd:0
+
+2023-01-29 17:42:12,979 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(60, 80, 0) SPD:0
+2023-01-29 17:42:12,982 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5000,4000,820),dir:(60,80,0),spd:0
+
+2023-01-29 17:42:12,985 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(44, 90, 0) SPD:0
+2023-01-29 17:42:12,988 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5000,4000,820),dir:(44,90,0),spd:0
+
+2023-01-29 17:42:13,108 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(28, 96, 0) SPD:0
+2023-01-29 17:42:13,110 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5000,4000,820),dir:(28,96,0),spd:0
+
+2023-01-29 17:42:13,395 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5000, 4000, 820) DIR:(28, 96, 0) SPD:300
+2023-01-29 17:42:13,399 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:MoveFwd entity:(10:pos:(5000,4000,820),dir:(28,96,0),spd:300
+
+2023-01-29 17:42:13,810 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5032, 4160, 820) DIR:(28, 96, 0) SPD:0
+2023-01-29 17:42:13,813 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:Idle entity:(10:pos:(5032,4160,820),dir:(28,96,0),spd:0
+
+2023-01-29 17:42:13,905 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5032, 4160, 820) DIR:(28, 96, 0) SPD:-300
+2023-01-29 17:42:13,907 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:MoveBack entity:(10:pos:(5032,4160,820),dir:(28,96,0),spd:-300
+
+2023-01-29 17:42:14,940 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4972, 3860, 820) DIR:(47, 88, 0) SPD:-300
+2023-01-29 17:42:14,943 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(4972,3860,820),dir:(47,88,0),spd:-300
+
+2023-01-29 17:42:14,990 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4960, 3836, 820) DIR:(63, 78, 0) SPD:-300
+2023-01-29 17:42:14,995 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(4960,3836,820),dir:(63,78,0),spd:-300
+
+2023-01-29 17:42:15,117 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4954, 3828, 820) DIR:(75, 66, 0) SPD:0
+2023-01-29 17:42:15,121 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:Idle entity:(10:pos:(4954,3828,820),dir:(75,66,0),spd:0
+
+2023-01-29 17:42:15,186 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4954, 3828, 820) DIR:(75, 66, 0) SPD:0
+2023-01-29 17:42:15,189 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(4954,3828,820),dir:(75,66,0),spd:0
+
+2023-01-29 17:42:15,192 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4954, 3828, 820) DIR:(86, 52, 0) SPD:0
+2023-01-29 17:42:15,193 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(4954,3828,820),dir:(86,52,0),spd:0
+
+2023-01-29 17:42:15,197 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4954, 3828, 820) DIR:(93, 36, 0) SPD:0
+2023-01-29 17:42:15,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(4954,3828,820),dir:(93,36,0),spd:0
+
+2023-01-29 17:42:15,412 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4954, 3828, 820) DIR:(98, 19, 0) SPD:300
+2023-01-29 17:42:15,414 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:MoveFwd entity:(10:pos:(4954,3828,820),dir:(98,19,0),spd:300
+
+2023-01-29 17:42:15,417 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4954, 3828, 820) DIR:(98, 19, 0) SPD:300
+2023-01-29 17:42:15,420 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(4954,3828,820),dir:(98,19,0),spd:300
+
+2023-01-29 17:42:15,424 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(4984, 3834, 820) DIR:(100, 1, 0) SPD:300
+2023-01-29 17:42:15,428 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(4984,3834,820),dir:(100,1,0),spd:300
+
+2023-01-29 17:42:16,433 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5289, 3834, 820) DIR:(98, 19, 0) SPD:300
+2023-01-29 17:42:16,437 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5289,3834,820),dir:(98,19,0),spd:300
+
+2023-01-29 17:42:16,525 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5314, 3839, 820) DIR:(93, 36, 0) SPD:300
+2023-01-29 17:42:16,528 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5314,3839,820),dir:(93,36,0),spd:300
+
+2023-01-29 17:42:16,698 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5344, 3851, 820) DIR:(84, 55, 0) SPD:300
+2023-01-29 17:42:16,699 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5344,3851,820),dir:(84,55,0),spd:300
+
+2023-01-29 17:42:16,701 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5368, 3869, 820) DIR:(71, 71, 0) SPD:300
+2023-01-29 17:42:16,704 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5368,3869,820),dir:(71,71,0),spd:300
+
+2023-01-29 17:42:16,902 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5388, 3889, 820) DIR:(57, 82, 0) SPD:300
+2023-01-29 17:42:16,914 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5388,3889,820),dir:(57,82,0),spd:300
+
+2023-01-29 17:42:16,920 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5406, 3913, 820) DIR:(39, 92, 0) SPD:300
+2023-01-29 17:42:16,923 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5406,3913,820),dir:(39,92,0),spd:300
+
+2023-01-29 17:42:17,037 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5416, 3938, 820) DIR:(22, 97, 0) SPD:300
+2023-01-29 17:42:17,040 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5416,3938,820),dir:(22,97,0),spd:300
+
+2023-01-29 17:42:17,044 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5422, 3968, 820) DIR:(2, 100, 0) SPD:300
+2023-01-29 17:42:17,050 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5422,3968,820),dir:(2,100,0),spd:300
+
+2023-01-29 17:42:17,206 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5422, 3993, 820) DIR:(-16, 99, 0) SPD:300
+2023-01-29 17:42:17,211 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5422,3993,820),dir:(-16,99,0),spd:300
+
+2023-01-29 17:42:17,320 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5416, 4023, 820) DIR:(-35, 94, 0) SPD:300
+2023-01-29 17:42:17,323 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5416,4023,820),dir:(-35,94,0),spd:300
+
+2023-01-29 17:42:17,367 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5402, 4058, 820) DIR:(-51, 86, 0) SPD:300
+2023-01-29 17:42:17,378 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:None entity:(10:pos:(5402,4058,820),dir:(-51,86,0),spd:300
+
+2023-01-29 17:42:17,619 [ 1] INFO  Unity: OnEntityChanged :ID:10 POS:(5372, 4098, 820) DIR:(-51, 86, 0) SPD:0
+2023-01-29 17:42:17,623 [ 1] INFO  Unity: MapEntityUpdateResponse: Entities:1
+    [10]evt:Idle entity:(10:pos:(5372,4098,820),dir:(-51,86,0),spd:0
+
+2023-01-29 17:42:21,415 [ 1] INFO  Unity: SetDirection:(17, -98, 0)
+2023-01-29 17:42:21,418 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:21,506 [ 1] INFO  Unity: SetDirection:(37, -93, 0)
+2023-01-29 17:42:21,508 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:21,608 [ 1] INFO  Unity: SetDirection:(55, -83, 0)
+2023-01-29 17:42:21,610 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:21,724 [ 1] INFO  Unity: SetDirection:(69, -72, 0)
+2023-01-29 17:42:21,727 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:22,305 [ 1] INFO  Unity: SetDirection:(82, -58, 0)
+2023-01-29 17:42:22,307 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:22,421 [ 1] INFO  Unity: SetDirection:(91, -41, 0)
+2023-01-29 17:42:22,423 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:22,491 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:42:22,493 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:42:22,551 [ 1] INFO  Unity: SetDirection:(97, -23, 0)
+2023-01-29 17:42:22,553 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:42:22,741 [ 1] INFO  Unity: Stop
+2023-01-29 17:42:22,744 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:23,425 [ 1] INFO  Unity: MoveBack
+2023-01-29 17:42:23,427 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:-300
+2023-01-29 17:42:24,351 [ 1] INFO  Unity: Stop
+2023-01-29 17:42:24,355 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:42:40,921 [ 1] INFO  Unity: SendFriendAddResponse
+2023-01-29 17:42:41,086 [ 1] INFO  Unity: OnFriendList
+2023-01-29 17:42:53,598 [ 1] INFO  Unity: SendFriendRemoveRequest
+2023-01-29 17:42:53,751 [ 1] INFO  Unity: OnFriendList
+2023-01-29 17:43:11,995 [ 1] INFO  Unity: SendFriendAddRequest
+2023-01-29 17:43:14,998 [ 1] INFO  Unity: OnFriendList
+2023-01-29 17:43:23,139 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:43:23,141 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:23,491 [ 1] INFO  Unity: Stop
+2023-01-29 17:43:23,494 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:43:23,922 [ 1] INFO  Unity: SetDirection:(92, -40, 0)
+2023-01-29 17:43:23,924 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:43:28,842 [ 1] INFO  Unity: OnMapCharacterLeave:CharId:10
+2023-01-29 17:43:28,846 [ 1] INFO  Unity: RemoveCharacter:10
+2023-01-29 17:43:28,850 [ 1] INFO  Unity: OnFriendList
+2023-01-29 17:43:28,855 [ 1] ERROR Unity: Message handler exception:, The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., Assembly-CSharp,   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at ListView.RemoveAll () [0x0001d] in C:\Users\Carver\File\Unity Project\mmorpg\Src\Client\Assets\Scripts\UI\ListView\ListView.cs:78 
+  at UIFriends.ClearFriendList () [0x00007] in C:\Users\Carver\File\Unity Project\mmorpg\Src\Client\Assets\Scripts\UI\Friends\UIFriends.cs:109 
+  at UIFriends.RefreshUI () [0x00002] in C:\Users\Carver\File\Unity Project\mmorpg\Src\Client\Assets\Scripts\UI\Friends\UIFriends.cs:92 
+  at Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) [0x0002c] in C:\Users\Carver\File\Unity Project\mmorpg\Src\Client\Assets\Scripts\Services\FriendService.cs:105 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg) [0x00000] in <filename unknown>:0 
+2023-01-29 17:43:28,860 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{MissingReferenceException: The object of type 'UIFriendItem' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object., ListView.RemoveAll () (at Assets/Scripts/UI/ListView/ListView.cs:78)
+UIFriends.ClearFriendList () (at Assets/Scripts/UI/Friends/UIFriends.cs:109)
+UIFriends.RefreshUI () (at Assets/Scripts/UI/Friends/UIFriends.cs:92)
+Services.FriendService.OnFriendList (System.Object sender, SkillBridge.Message.FriendListResponse message) (at Assets/Scripts/Services/FriendService.cs:105)
+Network.MessageDistributer`1[System.Object].RaiseEvent[FriendListResponse] (System.Object sender, SkillBridge.Message.FriendListResponse msg)
+}</args></log4net.Error>
+2023-01-29 17:43:28,878 [ 1] INFO  Unity: Character_4_法王 OnDestroy :ID:10 POS:(5372, 4098, 820) DIR:(-51, 86, 0) SPD:0 
+2023-01-29 17:43:34,377 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:43:34,378 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:34,478 [ 1] INFO  Unity: SetDirection:(82, -57, 0)
+2023-01-29 17:43:34,480 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:34,588 [ 1] INFO  Unity: SetDirection:(70, -71, 0)
+2023-01-29 17:43:34,589 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:34,695 [ 1] INFO  Unity: SetDirection:(54, -84, 0)
+2023-01-29 17:43:34,697 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:34,767 [ 1] INFO  Unity: SetDirection:(39, -92, 0)
+2023-01-29 17:43:34,768 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:34,860 [ 1] INFO  Unity: SetDirection:(22, -98, 0)
+2023-01-29 17:43:34,863 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:34,948 [ 1] INFO  Unity: SetDirection:(3, -100, 0)
+2023-01-29 17:43:34,950 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:35,100 [ 1] INFO  Unity: SetDirection:(-15, -99, 0)
+2023-01-29 17:43:35,102 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:36,334 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
+2023-01-29 17:43:36,336 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:36,807 [ 1] INFO  Unity: SetDirection:(-50, -87, 0)
+2023-01-29 17:43:36,810 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:37,126 [ 1] INFO  Unity: SetPosition:(4911, 3526, 805)
+2023-01-29 17:43:37,127 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:37,851 [ 1] INFO  Unity: SetDirection:(-66, -76, 0)
+2023-01-29 17:43:37,853 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:37,954 [ 1] INFO  Unity: SetDirection:(-78, -63, 0)
+2023-01-29 17:43:37,956 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:38,064 [ 1] INFO  Unity: SetDirection:(-88, -47, 0)
+2023-01-29 17:43:38,066 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:38,218 [ 1] INFO  Unity: SetDirection:(-95, -31, 0)
+2023-01-29 17:43:38,219 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:39,980 [ 1] INFO  Unity: SetPosition:(4212, 3107, 805)
+2023-01-29 17:43:39,984 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:41,624 [ 1] INFO  Unity: SetPosition:(3746, 2955, 805)
+2023-01-29 17:43:41,625 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:43,267 [ 1] INFO  Unity: SetPosition:(3275, 2801, 805)
+2023-01-29 17:43:43,271 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:44,934 [ 1] INFO  Unity: SetPosition:(2799, 2646, 805)
+2023-01-29 17:43:44,935 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:45,232 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
+2023-01-29 17:43:45,234 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:45,405 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
+2023-01-29 17:43:45,408 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:47,322 [ 1] INFO  Unity: SetDirection:(-99, -13, 0)
+2023-01-29 17:43:47,324 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:47,505 [ 1] INFO  Unity: SetPosition:(2037, 2641, 805)
+2023-01-29 17:43:47,506 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:48,326 [ 1] INFO  Unity: TeleporterObject: Character [石岚] Enter Teleporter [3:主城传入点1]
+2023-01-29 17:43:49,898 [ 1] INFO  Unity: SetPosition:(1323, 2547, 805)
+2023-01-29 17:43:49,901 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:50,117 [ 1] INFO  Unity: SetDirection:(-100, 6, 0)
+2023-01-29 17:43:50,119 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:51,423 [ 1] INFO  Unity: TeleporterObject: Character [石岚] Enter Teleporter [1:主城->野外]
+2023-01-29 17:43:51,425 [ 1] INFO  Unity: MapTeleportRequest: teleporterId:1
+2023-01-29 17:43:51,461 [ 1] INFO  Unity: OnMapCharacterLeave:CharId:9
+2023-01-29 17:43:51,466 [ 1] INFO  Unity: RemoveCharacter:9
+2023-01-29 17:43:51,468 [ 1] INFO  Unity: Character_3_石岚 OnDestroy :ID:9 POS:(858, 2534, 805) DIR:(-100, 6, 0) SPD:300 
+2023-01-29 17:43:51,475 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:1
+2023-01-29 17:43:51,477 [ 1] INFO  Unity: AddCharacter:3:石岚 Map:2 Entity:(9:pos:(2949,4005,2),dir:(100,0,0),spd:300
+2023-01-29 17:43:51,493 [ 1] INFO  Unity: LoadLevel: Map01
+2023-01-29 17:43:51,547 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:43:51,548 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:52,415 [ 1] INFO  Unity: LevelLoadCompleted:1
+2023-01-29 17:43:52,430 [ 1] INFO  Unity: Stop
+2023-01-29 17:43:52,432 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:43:52,434 [ 1] INFO  Unity: TeleporterObject: Character [石岚] Enter Teleporter [6:野外传入点]
+2023-01-29 17:43:52,958 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:43:52,959 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:53,404 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2023-01-29 17:43:53,405 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:53,507 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2023-01-29 17:43:53,509 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:55,774 [ 1] INFO  Unity: SetPosition:(3844, 3750, 8)
+2023-01-29 17:43:55,775 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:43:57,967 [ 1] INFO  Unity: SetPosition:(4458, 3506, 5)
+2023-01-29 17:43:57,969 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:00,024 [ 1] INFO  Unity: SetDirection:(98, -20, 0)
+2023-01-29 17:44:00,025 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:00,126 [ 1] INFO  Unity: SetDirection:(100, -1, 0)
+2023-01-29 17:44:00,127 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:00,247 [ 1] INFO  Unity: SetDirection:(98, 17, 0)
+2023-01-29 17:44:00,248 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:00,549 [ 1] INFO  Unity: SetDirection:(100, -2, 0)
+2023-01-29 17:44:00,550 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:00,700 [ 1] INFO  Unity: SetDirection:(98, -21, 0)
+2023-01-29 17:44:00,701 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,105 [ 1] INFO  Unity: SetDirection:(92, -39, 0)
+2023-01-29 17:44:01,106 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,223 [ 1] INFO  Unity: SetDirection:(82, -57, 0)
+2023-01-29 17:44:01,225 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,331 [ 1] INFO  Unity: SetDirection:(69, -72, 0)
+2023-01-29 17:44:01,332 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,428 [ 1] INFO  Unity: SetDirection:(55, -83, 0)
+2023-01-29 17:44:01,429 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,516 [ 1] INFO  Unity: SetDirection:(37, -93, 0)
+2023-01-29 17:44:01,517 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,589 [ 1] INFO  Unity: SetPosition:(5450, 3167, 5)
+2023-01-29 17:44:01,591 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,616 [ 1] INFO  Unity: SetDirection:(18, -98, 0)
+2023-01-29 17:44:01,618 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:01,787 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
+2023-01-29 17:44:01,789 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:02,027 [ 1] INFO  Unity: Stop
+2023-01-29 17:44:02,029 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:44:02,213 [ 1] INFO  Unity: SetDirection:(20, -98, 0)
+2023-01-29 17:44:02,216 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:44:02,313 [ 1] INFO  Unity: SetDirection:(39, -92, 0)
+2023-01-29 17:44:02,314 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:44:02,414 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
+2023-01-29 17:44:02,415 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:44:02,567 [ 1] INFO  Unity: SetDirection:(70, -71, 0)
+2023-01-29 17:44:02,568 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:44:02,669 [ 1] INFO  Unity: MoveForward
+2023-01-29 17:44:02,671 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,248 [ 1] INFO  Unity: SetDirection:(82, -57, 0)
+2023-01-29 17:44:03,249 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,367 [ 1] INFO  Unity: SetDirection:(92, -40, 0)
+2023-01-29 17:44:03,369 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,470 [ 1] INFO  Unity: SetDirection:(98, -20, 0)
+2023-01-29 17:44:03,471 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,570 [ 1] INFO  Unity: SetDirection:(100, 1, 0)
+2023-01-29 17:44:03,571 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,661 [ 1] INFO  Unity: SetDirection:(98, 21, 0)
+2023-01-29 17:44:03,664 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,746 [ 1] INFO  Unity: SetDirection:(93, 38, 0)
+2023-01-29 17:44:03,747 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,843 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2023-01-29 17:44:03,845 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:03,912 [ 1] INFO  Unity: SetDirection:(74, 67, 0)
+2023-01-29 17:44:03,914 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,003 [ 1] INFO  Unity: SetDirection:(61, 79, 0)
+2023-01-29 17:44:04,004 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,100 [ 1] INFO  Unity: SetDirection:(43, 90, 0)
+2023-01-29 17:44:04,101 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,196 [ 1] INFO  Unity: SetDirection:(24, 97, 0)
+2023-01-29 17:44:04,197 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,297 [ 1] INFO  Unity: SetDirection:(6, 100, 0)
+2023-01-29 17:44:04,297 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,384 [ 1] INFO  Unity: SetDirection:(-14, 99, 0)
+2023-01-29 17:44:04,385 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,465 [ 1] INFO  Unity: SetDirection:(-31, 95, 0)
+2023-01-29 17:44:04,466 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,557 [ 1] INFO  Unity: SetDirection:(-47, 88, 0)
+2023-01-29 17:44:04,558 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,629 [ 1] INFO  Unity: SetDirection:(-62, 78, 0)
+2023-01-29 17:44:04,631 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,742 [ 1] INFO  Unity: SetDirection:(-75, 66, 0)
+2023-01-29 17:44:04,744 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:300
+2023-01-29 17:44:04,952 [ 1] INFO  Unity: Stop
+2023-01-29 17:44:04,953 [ 1] INFO  Unity: MapEntityUpdateRequest : ID:9 POS:SkillBridge.Message.NVector3 DIR:SkillBridge.Message.NVector3 SPD:0
+2023-01-29 17:44:08,027 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2023-01-29 17:44:08,029 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
 
-2022-12-11 10:31:48,536 [ 1] INFO  Unity: Character_7_carver OnDestroy :ID:7 POS:(3527, 5611, 805) DIR:(-100, 7, 0) SPD:0 
+2023-01-29 17:44:08,035 [ 1] INFO  Unity: Character_3_石岚 OnDestroy :ID:9 POS:(5752, 3140, 5) DIR:(-75, 66, 0) SPD:0 

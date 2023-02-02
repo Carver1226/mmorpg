@@ -1,0 +1,37 @@
+﻿using Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SkillBridge.Message;
+using GameServer.Entities;
+using GameServer.Models;
+using GameServer.Services;
+using Network;
+using Common.Data;
+
+namespace GameServer.Managers
+{
+    class SessionManager : Singleton<SessionManager>
+    {
+        public Dictionary<int, NetConnection<NetSession>> Sessions = new Dictionary<int, NetConnection<NetSession>>();
+
+        public void AddSession(int characterId, NetConnection<NetSession> session)
+        {
+            this.Sessions[characterId] = session;
+        }
+
+        public void RemoveSession(int characterId)
+        {
+            this.Sessions.Remove(characterId);
+        }
+
+        public NetConnection<NetSession> GetSession(int characterId)
+        {
+            NetConnection<NetSession> session = null;
+            this.Sessions.TryGetValue(characterId, out session);
+            return session;
+        }
+    }
+}

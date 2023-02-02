@@ -19,6 +19,8 @@ namespace GameServer
         {
             this.MapID = 1;
             this.Items = new HashSet<TCharacterItem>();
+            this.Quests = new HashSet<TCharacterQuest>();
+            this.Friends = new HashSet<TCharacterFriend>();
         }
     
         public int ID { get; set; }
@@ -31,10 +33,16 @@ namespace GameServer
         public int MapPosZ { get; set; }
         public long Gold { get; set; }
         public byte[] Equips { get; set; }
+        public int Level { get; set; }
+        public long Exp { get; set; }
     
         public virtual TPlayer Player { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TCharacterItem> Items { get; set; }
         public virtual TCharacterBag Bag { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<TCharacterQuest> Quests { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<TCharacterFriend> Friends { get; set; }
     }
 }
